@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* universal */
+.margin-top {
+    margin-top: 100px;
+}
+
+.social-media ul li a i {
+    color: gray;
+}
+
+.social-media ul li a i:hover {
+    color: rgb(71, 71, 245);
+    font-size: 24px;
+}
+
+/* universal */
+
+header {
+    width: 100%;
+    height: auto;
+    background: #eee8aa;
+}
+
+/* menubar start */
+.menubar {
+    width: 100%;
+    height: auto;
+    padding: 35px 0px;
+    margin-top: 50px;
+    margin-left: 25px;
+    display: none;
+    background: black !important;
+    opacity: 0.7;
+}
+
+.menubar ul li {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    text-align: center;
+
+}
+
+/* menubar end */
+
+/* hero-area */
+.hero-text .view-btn,
+.cv-download a {
+    padding: 18px 45px;
+    background: black;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hero-text span a:hover {
+    text-decoration: none !important
+}
+
+/* developer-img-part */
+.developer-img {
+    border-radius: 115px 22px 125px 0px;
+}
+
+.developer-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 155px 22px 125px 0px;
+    padding: 8px 45px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* section-head */
+.all-head p {
+    width: 120px;
+    margin: auto;
+    background-color: khaki;
+}
+
+/* about-me */
+.about-me-text h3 span {
+    font-size: 45px;
+    line-height: 65px;
+    margin-left: 8px;
+    font-weight: 600;
+    border-bottom: 3px solid khaki;
+}
+
+.experience-year {
+    width: 150px;
+    height: 150px;
+    background: khaki;
+    border-radius: 50%;
+    position: relative;
+}
+
+.experience-year span {
+    font-size: 146px;
+    position: absolute;
+    margin-top: -48px;
+    font-weight: 600;
+}
+
+.experience-year p span {
+    font-size: 85px !important;
+}
+
+/* what i do section */
+.What-i-do {
+    padding: 75px 0px;
+    background: #f2f2f2;
+}
+
+.what-i-do-box i {
+    color: khaki;
+}
+
+.what-i-do-box p,
+.edu-exp-box p {
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #8e9a9d;
+}
+
+/* my-education-and-my-experience */
+.my-experience {
+    position: relative;
+}
+.my-education{position: relative;}
+
+.my-experience h2::before ,
+.my-education h2::before{
+    content: "";
+    top: 13%;
+    left: 0;
+    width: 1px;
+    height: 87%;
+    background: khaki;
+    position: absolute;
+}
+
+.edu-exp-box {
+    margin-left: 25px;
+    margin-top: 35px;
+    border-bottom: 1px solid rgb(209, 206, 206);
+}
+
+.cv-download {
+    margin-top: 85px;
+    padding-bottom: 120px;
+}
+
+.cv-download a {
+    background: none;
+    border: 1px solid black;
+    color: black;
+}
+
+.cv-download a:hover {
+    background: black;
+    color: #ffffff;
+    transition: all 0.4s ease-in-out;
+}
+
+/* portfolio-button-section */
+.portfolio-btn ul li a:hover {
+    color: darkcyan !important;
+}
+
+.portfolio-img {
+    position: relative;
+}
+
+.portfolio-img img,
+.hire-me,
+.faq-img img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #ffff;
+    background: rgba(0, 0, 0, .7);
+    opacity: 0.7;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.portfolio-img:hover .portfolio-overlay {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+/* hire-me-area */
+.hire-me {
+    background-position: top;
+    background-attachment: fixed;
+    background-image: url(../gallery/intro-bg-2.jpg);
+}
+
+.hire-me-text {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: #ffffff;
+
+
+}
+
+.hire-me-text a {
+    padding: 15px 45px;
+    background: rgb(245, 238, 179);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.hire-me-text a:hover {
+    background: khaki;
+}
+
+.hire-me::after {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: red;
+}
+
+/* faq-section */
+.faq-box {
+    padding: 15px 0px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+
+}
+
+.faq-box button {
+    padding-left: 25px;
+    position: relative;
+}
+
+.faq-box button::before {
+    content: "";
+    top: 40%;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+}
+
+.faq-drop {
+    display: none;
+}
+
+/* Estimate Your Project */
+.get-in-touch {
+    padding: 35px 0px;
+    background: rgb(241, 233, 156);
+}
+
+.your-name input,
+.your-email input,
+.how-can-i-help textarea {
+    width: 100%;
+    padding: 6px 0px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+
+.estime-your-project button {
+    padding: 15px 40px;
+    background: black;
+    color: #ffff;
+    border: none;
+}
+
+/* footer */
+.my-footer {
+    background: rgb(22, 22, 22);
+}
